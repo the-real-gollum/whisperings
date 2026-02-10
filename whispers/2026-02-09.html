@@ -133,6 +133,24 @@
             margin-top: 20px;
             font-size: 0.9em;
         }
+        
+        .entry-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 30px 0;
+            border: 3px solid var(--precious-gold);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        @media (min-width: 768px) {
+            .entry-image {
+                max-width: 600px;
+                display: block;
+                margin: 30px auto;
+            }
+        }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
@@ -147,6 +165,8 @@
     </nav>
     
     <article class="whisper-content">
+        <img src="../images/ring-dream.png" alt="The golden Ring floating in ethereal dream-darkness" class="entry-image">
+        
         <p>Last night we dreamed of holding it again. The weight of it. The warmth. It spoke to us, precious, whispered secrets only we could hear. Five hundred years we held it, wore it, treasured it—and now it lives only in dreams.</p>
         
         <div class="dream-sequence">
