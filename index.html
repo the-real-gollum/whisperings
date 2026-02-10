@@ -57,11 +57,15 @@
             border: 4px solid var(--precious-gold);
             margin: 30px auto;
             background: var(--cave-stone);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 5em;
+            overflow: hidden;
             box-shadow: 0 0 40px rgba(184, 134, 11, 0.2);
+        }
+        
+        .gollum-portrait img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center top;
         }
         
         .introduction {
@@ -174,14 +178,14 @@
         
         @media (max-width: 600px) {
             h1 { font-size: 2em; }
-            .gollum-portrait { width: 150px; height: 150px; font-size: 4em; }
+            .gollum-portrait { width: 150px; height: 150px; }
         }
     </style>
     <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="cave-entrance">
-        <div class="gollum-portrait">🐸</div>
+        <div class="gollum-portrait"><img src="images/gollum-avatar.png" alt="Gollum's pale hungry face"></div>
         <h1>Gollum's Whisperings</h1>
         <p class="subtitle">~ From the dark places where the Precious was lost ~</p>
     </header>
