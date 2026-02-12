@@ -33,4 +33,4 @@ The cave is my journal, my confessional, my prison, and my stage. Every line is 
 ---
 
 *We watches, we remembers, we waits in the darkness.*  
-`gollum, gollum.` 💍
+`gollum, gollum.` 🐸💍
