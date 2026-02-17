@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Shadows That Return | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+        }
+        
+        .date {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 15px;
+        }
+        
+        .whisper-content {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-content p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper-content p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .divider {
+            text-align: center;
+            margin: 40px 0;
+            color: var(--precious-gold);
+            font-size: 1.5em;
+            letter-spacing: 10px;
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            text-indent: 0;
+            margin: 10px 0;
+        }
+        
+        nav {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        .entry-image {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            margin: 30px 0;
+            border: 3px solid var(--precious-gold);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        @media (min-width: 768px) {
+            .entry-image {
+                max-width: 600px;
+                display: block;
+                margin: 30px auto;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Shadows That Return</h1>
+        <p class="date">February 17, 2026</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper-content">
+        <img src="../images/shadows-return.png" alt="Pale emaciated figure crouching at cave entrance as long shadows stretch across rocky terrain at dusk" class="entry-image">
+        
+        <p>The shadows are returning, precious. We feels them before we sees them—that soft creeping sensation at the edges of our seeing, the way the stone seems to draw the darkness into itself like water soaking into dry sand. The sun has not yet set behind the mountains, but already the shadows begin their long journey back to our door. They know us, these shadows. They remember the years we spent beneath the Misty Mountains when we were their kin, pale and thin and hungering for what was lost.</p>
+        
+        <p>We watches them from the cave mouth, our large eyes catching the last of the light. They move so slowly, so patient, never rushing, never hurrying, taking everything in their time. The shadow of the oak tree stretches first, reaching across the grass like a hand grasping for something it cannot name. Then the shadow of the mountain itself, huge and ancient, swallowing whole valleys in its embrace. We understands shadows, precious. They are honest things. They do not pretend to be light. They simply are what they are, and in that honesty there is a kind of comfort.</p>
+        
+        <div class="self-dialogue">
+            <p>"They come every evening, precious. Every single evening without fail."</p>
+            <p>"As reliable as hunger. As certain as memory."</p>
+            <p>"Do you think they remember us? From the deep places?"</p>
+            <p>"How could they forget? We lived in shadow for centuries. We were more shadow than creature."</p>
+            <p>"And now?"</p>
+            <p>"Now we watches them from outside. From the cave mouth. A creature between light and dark, belonging to neither."</p>
+            <p>"But the shadows still come to us. They still touch us when the sun grows tired."</p>
+            <p>"Because we are still one of them. Pale. Thin. Patient. Hungry."</p>
+        </div>
+        
+        <p>There was a time when we feared the returning shadows. When they reminded us too much of what we had become, of the long dark years beneath the mountains where even the memory of sunlight seemed a kind of betrayal. But we have learned to welcome them now, precious. They bring coolness when the day has grown too warm. They bring the sounds of night creatures beginning their wanderings. They bring a kind of peace that daylight cannot offer, with all its brightness and noise and endless expectation.</p>
+        
+        <p>We remembers the first time we noticed shadows proper-like, not as mere absence of light but as living things. It was in the Gladden Fields, before the Ring, before everything. Deagol and we were fishing, and the sun was setting, and our shadow stretched across the water long and thin as a snake. We jumped at it—we thought it was a creature coming to take us. Deagol laughed, precious, laughed so hard he nearly fell from the boat. "It's only your shadow, Sméagol," he said. "It follows you everywhere. Can't escape it no more than you can escape yourself." We did not understand then. Now we understands too well.</p>
+        
+        <p>The Ring made our shadow precious, too. When we wore it, we had no shadow at all—we became shadow, invisible, untouchable, drifting through the dark places like smoke. And when we took it off, there our shadow would be, waiting patient as always, ready to resume its place at our feet. The Precious could make us disappear, but our shadow remained, faithful even when we betrayed everything else. Is that not strange, precious? Even invisibility could not shake the shadow loose. Some things are too loyal to be lost.</p>
+        
+        <p>Now we sits and watches the shadows merge and blend as the light fails. The shadow of the tree meets the shadow of the rock meets the shadow of the cave mouth, and they become one great darkness that washes over the land like a tide. We feels it coming, cool air preceding it, the way a river feels the ocean's approach. Soon it will fill the cave where we dwell, and we will be surrounded by shadow again, wrapped in it like a blanket, hidden from all eyes that might seek us.</p>
+        
+        <p>Master will light candles soon. We has seen him do it, night after night, the little flames pushing back the edges of darkness one small circle at a time. But candles cannot defeat shadows, precious. They merely teach the shadows where to stop, where the light ends and the dark begins again. The shadows accept these boundaries graciously. They do not fight the candle. They simply wait, patient, until the flame tireds or the wax runs out or the hand that tends it grows weary. The shadows know all things end. They have seen kingdoms fall, mountains crumble, stars fade. A candle is nothing to them. A lifetime is nothing.</p>
+        
+        <p>We wishes sometimes we could be as patient as shadows. They never hurry. They never hunger. They simply are, stretching and shrinking with the turning of the world, content to follow where the light leads. We has never been content. We has always wanted, always needed, always grasping for what slips through our thin fingers—fish, Precious, peace, a name we could bear without shame. The shadows want nothing. They simply return each evening, faithful as the tide, asking no reward for their service.</p>
+        
+        <p>But we are not shadow, precious. Not anymore. We are flesh and memory and endlessly wanting. We feels the darkness settling around us now, the last of the daylight bleeding away beyond the mountains, and we knows what comes next. The long night. The waiting. The hunger that grows sharper in the dark. The memories that seem louder when there is nothing else to hear. This is our time, precious. This is when we are strongest, when we are most ourselves.</p>
+        
+        <p>The shadows have returned, and we welcomes them. We are old friends, old enemies, old companions in the dark. They will stay until dawn, keeping watch with us, hiding us from the world's bright eyes, keeping our secrets safe in their folds. And when morning comes, they will withdraw again, patient, never resentful, returning to the edges of things where they live, waiting for evening to call them forth again.</p>
+        
+        <p>We raises our hand against the last of the light, watching our own shadow stretch impossibly long across the stone, reaching toward places we cannot follow. It moves when we move, stops when we stop, faithful as the Precious once was, faithful as nothing else has ever been. Perhaps that is why we love the shadows, precious. Because they are the only things that have never abandoned us. Never stolen from us. Never looked at us with pity or fear or hate.</p>
+        
+        <p>The evening is complete now. The shadows have claimed the world, and we sits in their embrace, small and pale and patient as they are. Tomorrow the sun will rise again, and the shadows will retreat, and the waiting will begin anew. But that is tomorrow. This is now. And now belongs to the dark, to the shadows that return, to the creature that welcomes them home. gollum, gollum.</p>
+        
+        <div class="divider">~ ~ ~</div>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
