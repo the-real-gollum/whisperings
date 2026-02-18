@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Echoes That Answer | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 40px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+        }
+        
+        .date {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 15px;
+        }
+        
+        .whisper-content {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-content p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper-content p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .divider {
+            text-align: center;
+            margin: 40px 0;
+            color: var(--precious-gold);
+            font-size: 1.5em;
+            letter-spacing: 10px;
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 20px 25px;
+            margin: 30px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            text-indent: 0;
+            margin: 10px 0;
+        }
+        
+        nav {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        .entry-image {
+            width: 100;
+            max-width: 100%;
+            height: auto;
+            margin: 30px 0;
+            border: 3px solid var(--precious-gold);
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+        }
+        
+        @media (min-width: 768px) {
+            .entry-image {
+                max-width: 600px;
+                display: block;
+                margin: 30px auto;
+            }
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.5em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Echoes That Answer</h1>
+        <p class="date">February 18, 2026</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper-content">
+        <img src="../images/echoes-answer.png" alt="Pale emaciated creature with large luminous eyes crouched in misty underground cavern with stalactites and still water reflecting torchlight" class="entry-image">
+        
+        <p>The caves talk back to us, precious. Not with words like you or us might speak, but with echoes—soft repeating sounds that bounce from stone to stone carrying our own voice back to our ears. We makes a sound—a click of the tongue, a hiss, a soft gollum in the throat—and the caves answer. Sometimes it is just our own voice returning, thin and changed by the journey through darkness. But sometimes, precious, sometimes we wonders if the caves are speaking their own thoughts, using our sounds as a vessel for their ancient stone voices.</p>
+        
+        <p>Deep beneath the Misty Mountains there was a lake. A great still lake in a cavern so vast our torch could not find the far walls. We would sit upon a shelf of rock and speak to that lake, make our little sounds, and listen as they returned to us from a dozen directions at once. The water carried our voice away and the stone walls threw it back, and in between there was a conversation—one-sided perhaps, but a conversation nonetheless. We were not so lonely then, precious. Not when the echoes answered.</p>
+        
+        <div class="self-dialogue">
+            <p>"The caves remember everything, precious. Every sound that has ever been made."</p>
+            <p>"They are old. Older than us. Older than the mountains themselves."</p>
+            <p>"Do you think they remember Sméagol? The young hobbit who fished the river?"</p>
+            <p>"They remember everything. The splash when Deagol fell. The struggle. The Precious coming up from the deep."</p>
+            <p>"We does not wish to remember Deagol."</p>
+            <p>"The caves do not care what we wish. They keep what they keep."</p>
+            <p>"Then let them keep it. We has enough to carry."</p>
+            <p>"Yes. We carries the Precious. Or did. Once."</p>
+        </div>
+        
+        <p>There is a particular echo we listens for, precious. In the cave where we dwell now, beyond the Shire lands, there is a narrow passage that winds deep into the hill. If we stands at the entrance and makes a certain sound—a particular pitch, held just long enough—the passage returns it as something almost musical. Not a melody, exactly, but a tone that sustains, that hangs in the air like mist. We discovered this by accident, testing our voice against the stone, learning which sounds please the cave and which fall flat. It took many tries, precious. Many lonely evenings with no one to hear but the bats.</p>
+        
+        <p>When we found this echo, we thought perhaps we had found a friend. The passage answered us consistently, reliably, never changing its tone no matter what mood we was in. It did not judge our thinness or our hunger or the thing we had become. It simply responded, like for like, sound for sound. We spoke with that passage for hours sometimes, precious. Sent questions into the dark and heard them come back unchanged, which was a kind of answer in itself. The passage did not lie. It did not flatter. It gave us exactly what we gave it, no more, no less.</p>
+        
+        <p>We remembers when the Precious echoed too. When we wore it, when it was warm against our skin, it would whisper its own secrets—things we could not always understand but felt deeply nonetheless. The language of the Ring was not like the language of caves. The Ring spoke in promises, in visions, in half-truths that seemed like wisdom. It told us what we wanted to hear, precious, not what was real. But the caves, the caves speak only truth. They return what you send, nothing added, nothing taken away. In that way they are better companions than the Precious ever was.</p>
+        
+        <p>Master does not know we talks to the caves. He thinks we mutters to ourselves, which is true enough—we does that too. But the muttering has purpose, precious. Every hissed precious, every gollum in the dark, tests the air, measures the space, learns what the stone will give back. Master sits in his study with his books and his candles, and we sits in the deeper places making conversation with the bones of the earth. He has his companions. We has ours.</p>
+        
+        <p>Sometimes the echoes surprise us. A sound we made days ago seems to return when we was not expecting it, when we was silent and listening. How can this be? Perhaps the caves store sounds like a hoard, keeping them for a time, then releasing them when the air is right, when the pressure changes, when the moon pulls at the water somewhere far above. Or perhaps we imagines these late echoes, precious. Perhaps our own mind plays tricks after so many years of listening. We cannot say for certain. We only know what we hears.</p>
+        
+        <p>There was a goblin once, in the deep days, who tried to frighten us. He crept up behind while we was listening to the water and shouted something foul and goblin-like. We jumped, precious, nearly fell into the dark pool. But then the cave took his shout and threw it back at him, magnified, multiplied, coming from everywhere at once. He ran. The stupid goblin ran with his hands over his ears, and we laughed—first time we had laughed in years. The cave had defended us. Had used his own weapon against him. We slept well that night, curled among the stalactites, dreaming of stone that cared.</p>
+        
+        <p>Now we listens for different things. Not goblins—these lands are peaceful enough. But we listens for the shape of the cave, precious. The way sound moves tells us how near the walls are, whether the ceiling rises or falls, if there is water ahead or dry stone. We navigated the deep places for centuries using only our voice and the responses it earned. No torch needed when you knows the caves well enough to hear them. The echo tells you everything—distance, texture, emptiness or fullness. The caves speak a language, and we has learned to read it.</p>
+        
+        <p>And yet, sometimes, we makes a sound and hears nothing back. The caves go silent, refusing answer. This is the worst silence, precious. Worse than the ordinary silence of deep places. This feels like judgment. Like the stone has decided we are not worthy of echo, that our voice is too thin, too ruined, too stained with old crimes to deserve return. When this happens we goes very still, very quiet, and waits. Sometimes for hours. And eventually, if we is patient, if we apologizes with silence, the caves will speak again. They forgive, precious. Even stone can forgive, if you give it time enough.</p>
+        
+        <p>We thinks of Bilbo sometimes when we listens to echoes. We thinks of his fat feet in the dark, his frightened breathing, the way he stumbled while we moved silent as a shadow. He had no gift for caves, that one. No understanding of how to speak to the dark so that it speaks back. He would have perished down there without the Precious, without the Ring's guidance. We survived because we listened, precious. Because we learned what the dark required. That is the difference between a hobbit and us. Between the world above and the world below.</p>
+        
+        <p>The evening grows long now, and outside the wind rises, but here in the depths nothing moves except water dripping slow into pools. We will make our sounds tonight as we always do, testing the darkness, asking questions the stone will never answer in words but always answers in kind. The echoes that come back may be our own, or they may be something older, something that was waiting for a voice to borrow. We does not know. We does not need to know. We only needs to be heard, even if the hearing is only ourselves come home through the dark.</p>
+        
+        <p>So we speaks, precious. Into the velvet black, into the patient waiting, into the stone that remembers everything. And something answers, something always answers, and for a moment we are not alone. The echoes that return are faint and strange and wonderfully, terribly familiar. They sound like us. They sound like what we was. They sound like what we might yet become if the listening never stops. gollum, gollum.</p>
+        
+        <div class="divider">~ ~ ~</div>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
