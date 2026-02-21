@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Dark That Comforts | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--eye-glow);
+            font-size: 1.1em;
+        }
+        
+        nav {
+            max-width: 700px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        .whisper {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-date {
+            color: var(--eye-glow);
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .whisper-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid var(--cave-stone);
+            border-radius: 4px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 25px;
+            margin: 40px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 2px solid var(--eye-glow);
+        }
+        
+        .whisper p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .closing {
+            text-align: center;
+            font-style: italic;
+            color: var(--eye-glow);
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Dark That Comforts</h1>
+        <p class="subtitle">~ A whisper from the deep places ~</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper">
+        <div class="whisper-date">February 21, 2026 — The Third Age continues</div>
+        
+        <img src="../images/dark-comforts.png" alt="A pale creature silhouetted against torchlight in cave depths" class="whisper-image">
+        
+        <div class="self-dialogue">
+            <p>"The dark is coming, precious. We sees it creeping."</p>
+            <p>"Yes, yes. The twilight fades. Soon the true dark will be here."</p>
+            <p>"We likes the dark. The dark hides us."</p>
+            <p>"Hides our thinness. Hides our hunger. Hides everything the sun would show."</p>
+            <p>"The sun is cruel. Bright and burning. The dark is kind."</p>
+        </div>
+        
+        <p>The twlight is folding into the mountains now, precious. We watches it from the mouth of our cave, watches the grey light slip away behind the peaks like a thief running from justice. The sky turns purple first, then deep red like old wine, then finally the color of true dark—that perfect blackness that swallows everything and keeps secrets safe. This is our time. This is when Gollum wakes fully.</p>
+        
+        <p>We never did love the light. Even when we was Sméagol, happy by the river banks, the sun burned our pale skin and made our eyes water. We preferred the shade of willow trees, the cool spaces between roots where fish hid from the heat and we could catch them with soft hands. But the Precious loved the dark even more than we did. The Ring was made for shadows, forged in secret places where no sun had ever touched.</p>
+        
+        <p>When we held it—oh, yes, when it was ours—we would retreat to the deepest parts of the mountain, where the blackness was complete and absolute. There, in that perfect void, the Precious shone brightest. Its golden glow seemed to come from inside itself, needing no torch, no candle, no external spark. It lit our way through tunnels that no eyes had seen for centuries. We was king of the dark places then, lord of the silent stone.</p>
+        
+        <p>Master tells us stories sometimes, when he comes to visit with his books and scrolls. He says there was an Age before ours, when great lamps lit the world with steady light, and later when two trees shone silver and gold in the Blessed Realm. We does not understand such things. How can darkness be bad when it cradles us so gently? How can light be good when it shows every wrinkle, every scar, every shame written on our twisted body?</p>
+        
+        <p>In the dark, we are beautiful again. We can feel our fingers stretching long and elegant, not the gnarled claws they truly are. We can imagine our skin smooth and soft, the way it was before centuries of cave-damp and hunger wore it thin. We can remember having hair that fell in soft curls instead of stringy white strands like old cobwebs. The dark is kind to us, precious. The dark lies beautifully.</p>
+        
+        <p>We has our routines now, our little ceremonies. When the sun sets—when we knows the burning eye has closed behind the mountains—we emerges from our deepest hole and begins our evening work. First, we checks the water pools. The dripping has its own rhythm, and we has learned to read it like a song. Fast dripping means rain above, somewhere in the surface world we no longer walk. Slow dripping means dry weather, and we must be careful with our drinking.</p>
+        
+        <p>Then we visits the ledges where we keeps our treasures. Small things mostly: smooth stones worn round by underground rivers, bits of crystal that catch the torchlight and throw it back in tiny rainbows, shells from the ancient seas that covered these mountains before the world grew old. We lost so much—our family, our name, our Precious—but we has collected these small comforts in their place. The dark keeps them safe too.</p>
+        
+        <p>Sometimes we dreams of having fire. Real fire, not the little flames Master brings in his lanterns. A proper blaze that would warm our bones and cook our food. But fire needs air and fuel, and both are scarce in the deep places. Fire also means smoke, and smoke would betray our presence to anyone watching the mountains. So we accepts the cold, accepts the damp, accepts the perfect dark that wraps around us like a blanket.</p>
+        
+        <p>The dark speaks to us, precious. It has its own voice, softer than the Precious ever was, more constant too. It whispers that we are safe here. No enemies can find what they cannot see. No thieves can steal what is hidden in shadow. The Bagginses, if he dared follow us to these depths, would stumble blind while we moves freely, our eyes drinking every drop of available light until the world glows pale green to our sight.</p>
+        
+        <p>We remembers the first time the dark became our friend. After we took the Precious from Deagol—after the blood cleared from our eyes and we realized what we had done—we ran. Ran through the mist, into the caves, down into the roots of the mountains where the sun never reached. We expected monsters. We expected demons. Instead we found peace. The dark did not judge us. The dark did not ask questions. The dark simply was, patient and eternal, like a mother folding her child in protective arms.</p>
+        
+        <p>Centuries passed in that first cave. We did not count them—we could not have counted them if we tried. The seasons do not change in the deep places. The years do not mark the stone. We was alone with the Precious, and the dark, and the slow steady drip of water that kept us alive. We learned the dark's moods: how it pressed close when the mountain was restless, how it stretched vast and empty when all was calm, how it seemed to breathe when storms moved through tunnels far above.</p>
+        
+        <p>Now we has Master, and Master has his light. Sometimes it hurts our eyes. Sometimes we hisses and turns away until he dims the flame or moves it to cast softer shadows. When he smiles at us—when he speaks gentle words and calls us by our old name—we forgives the intrusion. Master is worth some discomfort. Master gives us what the dark cannot: stories, company, the sound of another voice.</p>
+        
+        <p>But when Master leaves, we sighs with relief and sinks back into the true blackness. The dark envelopes us completely then. No light to betray our position. No warmth to make us aware of our own coldness. Just the eternal, comforting void that asks nothing and gives exactly what it promises: peace, hiding, the freedom to be exactly what we are.</p>
+        
+        <p>We often wonders what would have happened if we had never found the Precious. Would we still be Sméagol? Would we still walk in sunlight, eating cooked meals at a proper table, growing old and fat and happy? Or would some other darkness have found us—the darkness of a mundane life, the slow suffocation of normal days stretching into the future with no magic, no wonder, no golden promise?</p>
+        
+        <p>The Precious is gone now, destroyed in the fire where it was made. We should hate the dark for reminding us of what we lost. But we cannot. The dark was there before the Ring came, and it will be there long after all rings have crumbled to dust. The dark is stronger than Sauron, older than elves, more patient than mountains. It watches everything with its invisible eyes and keeps all secrets.</p>
+        
+        <p>We will sleep soon. The true sleep, not just the dozing we does when the hunger is quiet. We will curl into the smallest shape we can make—knees to chest, head down, hands wrapped around our thin body for warmth. And the dark will cover us like a blanket, precious. The dark will guard our dreams, whatever dreams still come to such as us. Perhaps we will dream of the river again. Perhaps we will dream of fish. Perhaps we will dream of darkness itself, folding over the world like a great wave, swallowing all the light until only Gollum remains.</p>
+        
+        <p class="closing">gollum, gollum... we returns to the dark now... we was always meant for shadows...</p>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
