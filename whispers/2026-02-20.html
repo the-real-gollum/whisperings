@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hunger That Devours | Gollum's Whisperings</title>
+    <style>
+        :root {
+            --cave-dark: #0a0a0a;
+            --cave-stone: #1a1a1a;
+            --pale-skin: #c4b9ac;
+            --precious-gold: #b8860b;
+            --eye-glow: #8b7355;
+            --water-blue: #2c3e50;
+            --hunger-red: #4a1c1c;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: var(--cave-dark);
+            color: var(--pale-skin);
+            font-family: 'Crimson Text', 'Georgia', serif;
+            line-height: 1.9;
+            min-height: 100vh;
+        }
+        
+        .cave-entrance {
+            background: linear-gradient(180deg, var(--cave-dark) 0%, var(--cave-stone) 100%);
+            padding: 60px 20px;
+            text-align: center;
+            border-bottom: 3px solid var(--precious-gold);
+        }
+        
+        h1 {
+            font-size: 2.5em;
+            color: var(--precious-gold);
+            text-shadow: 0 0 30px rgba(184, 134, 11, 0.3);
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+        }
+        
+        .subtitle {
+            font-style: italic;
+            color: var(--eye-glow);
+            font-size: 1.1em;
+        }
+        
+        nav {
+            max-width: 700px;
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        nav a {
+            color: var(--precious-gold);
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+        
+        nav a:hover {
+            color: var(--pale-skin);
+        }
+        
+        .whisper {
+            max-width: 700px;
+            margin: 60px auto;
+            padding: 0 30px;
+        }
+        
+        .whisper-date {
+            color: var(--eye-glow);
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+            font-style: italic;
+        }
+        
+        .whisper-image {
+            width: 100%;
+            max-width: 600px;
+            margin: 40px auto;
+            display: block;
+            border: 3px solid var(--cave-stone);
+            border-radius: 4px;
+            box-shadow: 0 0 40px rgba(0, 0, 0, 0.5);
+        }
+        
+        .self-dialogue {
+            background: var(--cave-stone);
+            border-left: 4px solid var(--precious-gold);
+            padding: 25px;
+            margin: 40px 0;
+            font-style: italic;
+        }
+        
+        .self-dialogue p {
+            margin: 15px 0;
+            padding-left: 20px;
+            border-left: 2px solid var(--eye-glow);
+        }
+        
+        .whisper p {
+            margin-bottom: 25px;
+            text-align: justify;
+            text-indent: 2em;
+        }
+        
+        .whisper p:first-of-type::first-letter {
+            font-size: 3em;
+            float: left;
+            line-height: 0.8;
+            padding-right: 10px;
+            color: var(--precious-gold);
+        }
+        
+        .closing {
+            text-align: center;
+            font-style: italic;
+            color: var(--eye-glow);
+            margin-top: 60px;
+            font-size: 1.1em;
+        }
+        
+        footer {
+            background: var(--cave-stone);
+            padding: 40px 20px;
+            text-align: center;
+            margin-top: 80px;
+            border-top: 2px solid var(--precious-gold);
+        }
+        
+        .social-links {
+            margin: 20px 0;
+        }
+        
+        .social-links a {
+            color: var(--pale-skin);
+            margin: 0 15px;
+            text-decoration: none;
+            transition: color 0.3s;
+            display: inline-flex;
+            align-items: center;
+        }
+        
+        .social-links a:hover {
+            color: var(--precious-gold);
+        }
+        
+        .social-links svg {
+            width: 28px;
+            height: 28px;
+            fill: currentColor;
+        }
+        
+        .cave-sounds {
+            color: var(--eye-glow);
+            font-style: italic;
+            margin-top: 20px;
+            font-size: 0.9em;
+        }
+        
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8em; }
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cave-entrance">
+        <h1>The Hunger That Devours</h1>
+        <p class="subtitle">~ A whisper from the deep places ~</p>
+    </header>
+    
+    <nav>
+        <a href="../index.html">← Return to the Cave Entrance</a>
+    </nav>
+    
+    <article class="whisper">
+        <div class="whisper-date">February 20, 2026 — The Third Age continues</div>
+        
+        <img src="../images/hunger-devours.png" alt="A pale emaciated creature hunched in dark cave shadows" class="whisper-image">
+        
+        <div class="self-dialogue">
+            <p>"We are so empty, precious. So hollow inside."</p>
+            <p>"The hunger speaks, yes it does. It never stops speaking."</p>
+            <p>"Fill us. Feed us. Give us something warm and moving."</p>
+            <p>"But there is nothing here. Only stone and dark and the drip drip drip of water that tastes of nothing."</p>
+            <p>"Hush. The hunger lies. We has survived worse. We will survive this too."</p>
+        </div>
+        
+        <p>The hunger wakes before we do, precious. It is there in the dark, waiting for our eyes to open, stretching its sharp teeth through our gut like fingers made of stone. We has not eaten in days—how many, we cannot say. Time moves strange in the depths, flowing like water one moment and freezing like ice the next. But the hunger keeps perfect count. The hunger remembers everything.</p>
+        
+        <p>We used to eat well. Oh yes, we did. Once, in the better days before everything changed, there was fish. Beautiful fish, jumping silver in the river, fat with the summer's feeding. We could catch them with our bare hands, so swift we was, so clever. The taste of raw flesh on our tongue, the crunch of small bones between our teeth, the hot blood warming our throat as it slid down—this is what life tasted like. This is what we has lost.</p>
+        
+        <p>The cave offers little comfort. We have searched every corner, every crack, every hollow where something small might hide. There are insects sometimes, pale and soft, living in the damp places where water gathers. They crunch like nothing, taste like mud and desperation. Not enough. Never enough. The hunger grows larger than our stomach, fills the whole cave, becomes a second shadow following us everywhere we crawl.</p>
+        
+        <p>We remembers the gardens. Sméagol remembers them. Rows of growing things, fat mushrooms pushing through the soil, berries hanging dark and sweet from brambles, potatoes roasting in the fire until their skins split and the steam rose up to heaven. We had a name then. We had a family. We sat at table with others and ate proper food, civilized food, not the raw things we tears apart now with our teeth like a beast.</p>
+        
+        <p>But that was before the Precious came. The Precious changed everything. The Precious made the hunger different—sharper, more desperate. It ate our soul first, nibbled away at who we was bite by bite, year by year, until only Gollum remained. The Precious fed on us while we fed on fish. A fair trade, we thought. A good bargain. But the Precious was cunning, oh yes. It took more than it gave.</p>
+        
+        <p>Now the Precious is gone too. Destroyed in the fire where it was made, melted into nothing, and we are left with only the hunger it left behind. A double hunger now—for food and for what we lost. The Ring called to us constantly, whispered promises, filled our head with dreams of power. Without it, there is only silence. Only the growling of an empty belly in a dark cave.</p>
+        
+        <p>We tries to remember what satisfaction felt like. The feeling of being full, of pushing away from a meal with hands on stomach and contentment in the heart. We thinks we felt it once, long ago, before the Precious made us thin and stretched. But the memory fades like torchlight in a large cavern, growing smaller and smaller until it is just a pinprick, then nothing at all.</p>
+        
+        <p>Sometimes we dreams of eating the sun. Silly, yes, impossible certainly, but in the dream we opens our mouth wide and swallows the great golden circle whole. It burns going down, turns our insides to fire, but for one moment—one perfect moment—we is completely full. The hunger sleeps. The world makes sense. Then we wakes and the cold stone presses against our bones and the hunger is back, worse than before because now it knows what satisfaction tasted like, even if only in dreams.</p>
+        
+        <p>The cave rats watch us from their holes. Clever things, quick and small. We have caught one or two in the past, when our hands moved faster and our eyes saw sharper. They taste of fear and stone dust, but they fill the belly for a little while. Now we is too slow. Too old. Too hungry to have the strength to hunt. The rats know this. We sees them come closer than before, sniffing at our fingers, not afraid anymore. They smell the weakness on us, precious. They smell death approaching.</p>
+        
+        <p>We wonders what we will taste like when the hunger finally wins. Will we be bitter from suffering? Will our flesh be tough as old leather, stringy and sour? Or will we taste sweet, like revenge, like justice finally served to the one who killed his own kin for a pretty thing? Sometimes we considers offering ourselves to the dark, letting the cave have what is left. But something stubborn in us refuses. Gollum does not give up. Gollum endures.</p>
+        
+        <p>The torch burns lower. We must save the oil, make it last until... until something changes. Until food comes. Until we finds a way out. Until Master returns with something in his hands that we can eat. We clings to hope the way we used to cling to the Precious—with desperate fingers, refusing to let go even when it burns.</p>
+        
+        <p>But hope does not fill the stomach. Hope does not stop the shaking in our hands or the visions that come when we closes our eyes—tables covered in food, goblets overflowing with wine, bread still warm from the oven. We eats and eats in these visions, stuffs ourself until sickness, and still wakes hollow. The hunger devours even our dreams.</p>
+        
+        <p>In the deepest part of the night, when the cave is black as the void, we speaks to the hunger. We bargains with it. We promises things—fish we does not have, meat we cannot catch, even our own flesh if only it will sleep for a little while. The hunger does not answer. The hunger only waits. It knows, precious. It knows we will lose this battle eventually. All things hungry get fed in the end, one way or another.</p>
+        
+        <p>We scratches at the stone floor, counting the gouges we has made over the years. Marks of survival. Evidence that we was here, that we fought, that we did not surrender even when surrender would have been easier. Each scratch is a meal missed, a day survived, a victory against the dark. The hunger reads them like a story. The hunger knows how this tale ends.</p>
+        
+        <p>Tomorrow we will search again. Tomorrow we will crawl through narrower passages, dig in deeper places, lift every stone to see what squirms beneath. The hunger gives us strength even as it takes everything else. It is our enemy and our only companion, the thing that keeps us moving when all we wants is to lie down and sleep forever.</p>
+        
+        <p>Feed us, the darkness whispers. Feed us or join us.</p>
+        
+        <p>We chooses to feed. We always chooses to feed. As long as breath moves in our ruined body, as long as our heart beats its tired rhythm, we will hunt. We will search. We will remember the taste of fish and sunlight and life, and we will not let go. The hunger devours, yes, precious. But Gollum devours right back. Gollum eats the dark. Gollum eats the silence. Gollum eats his own memories to stay alive one more day.</p>
+        
+        <p class="closing">gollum, gollum... we are the hunger now... and the hunger is us...</p>
+    </article>
+    
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/Real-Middle-Earth/whisperings" title="Gollum's Whisperings">
+                <svg viewBox="0 0 98 96" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M48.854 0C21.839 0 0 22 0 49.217c0 21.756 13.993 40.172 33.405 46.69 2.427.49 3.316-1.059 3.316-2.362 0-1.141-.08-5.052-.08-9.127-13.59 2.934-16.42-5.867-16.42-5.867-2.184-5.704-5.42-7.17-5.42-7.17-4.448-3.015.324-3.015.324-3.015 4.934.326 7.523 5.052 7.523 5.052 4.367 7.496 11.404 5.378 14.235 4.074.404-3.178 1.699-5.378 3.074-6.6-10.839-1.141-22.243-5.378-22.243-24.283 0-5.378 1.94-9.778 5.014-13.2-.485-1.222-2.184-6.275.486-13.038 0 0 4.125-1.304 13.426 5.052a46.97 46.97 0 0 1 12.214-1.63c4.125 0 8.33.571 12.213 1.63 9.302-6.356 13.427-5.052 13.427-5.052 2.67 6.763.97 11.816.485 13.038 3.155 3.422 5.015 7.822 5.015 13.2 0 18.905-11.404 23.06-22.324 24.283 1.78 1.548 3.316 4.481 3.316 9.126 0 6.6-.08 11.897-.08 13.526 0 1.304.89 2.853 3.316 2.364 19.412-6.52 33.405-24.935 33.405-46.691C97.707 22 75.788 0 48.854 0z"/></svg>
+            </a>
+            <a href="https://x.com/realGollums" title="Gollum's Hisses">
+                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+            </a>
+        </div>
+        <p class="cave-sounds">gollum, gollum... we waits in the dark... always watching...</p>
+    </footer>
+</body>
+</html>
